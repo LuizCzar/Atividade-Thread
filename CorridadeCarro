@@ -1,6 +1,6 @@
 public class Carro extends Thread {
     private String nome;
-    private int velocidade; // quanto menor, mais rápido o carro
+    private int velocidade; 
 
     public Carro(String nome, int velocidade) {
         this.nome = nome;
