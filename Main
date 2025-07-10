@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        // Criamos 3 carros com diferentes velocidades (sleep)
+        Carro carro1 = new Carro("Carro Azul", 200); // Rápido
+        Carro carro2 = new Carro("Carro Vermelho", 300); // Médio
+        Carro carro3 = new Carro("Carro Verde", 500); // Lento
+
+        // Iniciamos os carros (threads)
+        carro1.start();
+        carro2.start();
+        carro3.start();
+    }
+}
