@@ -1,16 +1,19 @@
-package com.mycompany.formulario01;
+ppackage com.mycompany.formulario01;
 
 import javafx.application.Application;
+import static javafx.application.Application.launch;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 
 /**
  * JavaFX App
  */
-public class Formulario01 extends Application {
+public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception{
         
